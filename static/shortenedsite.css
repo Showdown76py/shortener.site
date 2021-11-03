@@ -32,8 +32,8 @@
 }  
 
 .g-recaptcha {
-    display: inline-block;
-}
+        display: inline-block;
+    }
 
 input[type=text] {
     background-color: #40444B;
@@ -50,4 +50,7 @@ input[type=text] {
     text-align: left;
     outline: none;
     border-radius: 5px;
+}
+input[type=text]:focus {
+  border: 1.5px solid #DCDDDE;
 }
