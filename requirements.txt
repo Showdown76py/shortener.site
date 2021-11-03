@@ -1,0 +1,4 @@
+flask
+flask-sslify
+flask-recaptcha
+requests
