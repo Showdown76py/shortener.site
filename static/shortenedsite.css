@@ -1,0 +1,53 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #36393F;
+    color: #DCDDDE;
+    text-align: center;
+}
+
+.button {
+  background-color: #555555; /* Green */
+  border: none;
+  transition: 0.15s;
+  -webkit-transition: 0.15s;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: #6b6b6b;
+}
+
+.footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+}  
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+input[type=text] {
+    background-color: #40444B;
+    width: 50%;
+    font-size: 18px;
+    border: None;
+    box-sizing: border-box;
+    border: 1.5px solid #36393F;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    outline: none;
+    border-radius: 5px;
+}

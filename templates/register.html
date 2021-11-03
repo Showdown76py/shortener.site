@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="/static/shortenedsite.css"></link>
+<h1>Shorten your website</h1>
+<p style="color: red">{{ message }}</p>
+<body>
+    <p style="margin-bottom: 18px;">Make the link <a style="font-size: 12px;">short</a> with <b>shortened.site</b>!</p>
+    <form method="POST"> <!-- Sends POST request to flask server -->
+        <input id="link" name="link" type="text" placeholder="https://google.com/..."></input>
+        <p><script src='//www.google.com/recaptcha/api.js'></script> <div class="g-recaptcha" data-sitekey="6Ld_ghAdAAAAACan9vE4SN4uQZTlzJOtDVHm-vit" data-theme="dark" data-type="image" data-size="normal" data-tabindex="0"></div></p>
+        <p><button class="button">
+            Make it short!
+        </button></p>
+    </form>
+    <script type="text/javascript">
+        document.getElementById('link').value = '{{ prefill }}';
+    </script>
+
+    <div class="footer">
+        <p style="color: #c2c2c2; text-align: center">Made by <a style="color: white; text-decoration: underline;">Showdown76#0001</a></p>
+    </div>
+</body>
